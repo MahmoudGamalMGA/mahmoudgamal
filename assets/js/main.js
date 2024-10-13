@@ -1520,7 +1520,7 @@ const headerMenu = function () {
     const allMenuItems = document.querySelectorAll('.header_menu_item');
     const allNavItems = document.querySelectorAll('.btn-link');
 
-    const secObsCallback = function (entriesArr) {
+    const secObsCallback = function (entriesArr, observer) {
       // entries : threshold's values each one alone
       const [entries] = entriesArr;
 
@@ -1533,6 +1533,8 @@ const headerMenu = function () {
           item.classList.remove('active');
         });
         secNavItem.classList.add('active');
+
+        observer.unobserve(entry.target);
       }
     };
     const SecObsOptions = {
