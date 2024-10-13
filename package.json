@@ -1,0 +1,13 @@
+{
+  "name": "mga-website",
+  "version": "1.0.0",
+  "description": "Mahmoud Gamal | Official Website",
+  "default": "index.html",
+  "scripts": {
+    "start": "index.html"
+  },
+  "author": "MGA / Mahmoud Gamal",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}

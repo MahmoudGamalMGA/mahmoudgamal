@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/img/mga-icon-black.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Mahmoud Gamal | Official Website</title>
+
+    <script defer src="/assets/js/three.min.js"></script>
+    <script defer src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <!-- <div class="header_logo js-header_logo">
+          <a class="link-logo" aria-label="Home page" href="/">Mahmoud Gamal</a>
+        </div> -->
+
+        <div class="header_menu js-cursor-vanish">
+          <ul class="header_menu_list ul__reset">
+            <li class="header_menu_item js-cursor-contract">
+              <a href="#main" class="desc text-uppercase js-menu-link"
+                ><span class="header_menu_item_inner"
+                  ><span
+                    class="header_menu_item_link header_menu_item_link__deep"
+                    >Home</span
+                  >
+                  <span
+                    class="header_menu_item_link header_menu_item_link__active"
+                    >Home</span
+                  ></span
+                ></a
+              >
+            </li>
+            <li class="header_menu_item js-cursor-contract">
+              <a href="#about" class="desc text-uppercase js-menu-link"
+                ><span class="header_menu_item_inner"
+                  ><span
+                    class="header_menu_item_link header_menu_item_link__deep"
+                    >About</span
+                  >
+                  <span
+                    class="header_menu_item_link header_menu_item_link__active"
+                    >About</span
+                  ></span
+                ></a
+              >
+            </li>
+            <li class="header_menu_item js-cursor-contract">
+              <a href="#work" class="desc text-uppercase js-menu-link"
+                ><span class="header_menu_item_inner"
+                  ><span
+                    class="header_menu_item_link header_menu_item_link__deep"
+                    >Work</span
+                  >
+                  <span
+                    class="header_menu_item_link header_menu_item_link__active"
+                    >Work</span
+                  ></span
+                ></a
+              >
+            </li>
+            <li class="header_menu_item js-cursor-contract">
+              <a href="#contact" class="desc text-uppercase js-menu-link"
+                ><span class="header_menu_item_inner"
+                  ><span
+                    class="header_menu_item_link header_menu_item_link__deep"
+                    >Contact</span
+                  >
+                  <span
+                    class="header_menu_item_link header_menu_item_link__active"
+                    >Contact</span
+                  ></span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="nav-bar js-cursor-vanish">
+        <div class="credits-top">
+          <div class="btn btn-link btn-left-top">
+            <a
+              href="/"
+              class="btn-click magnetic"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <span class="btn-text">
+                <div class="credit"><span>&copy;</span></div>
+                <div class="cbd">
+                  <span class="code-by">Code by </span
+                  ><span class="mahmoud"
+                    ><span class="mahmoud-span">Mahmoud</span>
+                    <span class="gamal">Gamal</span></span
+                  >
+                </div>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <ul class="links-wrap">
+          <li class="btn btn-link">
+            <a
+              href="#main"
+              class="btn-click magnetic js-menu-link"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <span class="btn-text">
+                <span class="btn-text-inner">Home</span>
+              </span>
+            </a>
+          </li>
+          <li class="btn btn-link">
+            <a
+              href="#about"
+              class="btn-click magnetic js-menu-link"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <span class="btn-text">
+                <span class="btn-text-inner">About</span>
+              </span>
+            </a>
+          </li>
+          <li class="btn btn-link">
+            <a
+              href="#work"
+              class="btn-click magnetic js-menu-link"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <span class="btn-text">
+                <span class="btn-text-inner">Work</span>
+              </span>
+            </a>
+          </li>
+          <li class="btn btn-link">
+            <a
+              href="#contact"
+              class="btn-click magnetic js-menu-link"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <span class="btn-text">
+                <span class="btn-text-inner">Contact</span>
+              </span>
+            </a>
+          </li>
+          <li class="btn btn-link btn-menu">
+            <div
+              class="btn-click magnetic"
+              data-strength="20"
+              data-strength-text="10"
+            >
+              <div class="btn-text">
+                <span class="btn-text-inner">Menu</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="no-scroll-overlay"></div>
+      <div class="loading-container">
+        <div class="loading-screen">
+          <div class="rounded-div-wrap top">
+            <div class="rounded-div"></div>
+          </div>
+          <div class="loading-words">
+            <h2 class="home-active home-active-first">
+              Hello
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Bonjour
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              स्वागत हे
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Ciao
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Olá
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              こんにちは
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              おい
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              안녕하세요
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Hallå
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Guten tag
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active">
+              Hallo
+              <div class="dot"></div>
+            </h2>
+            <h2 class="home-active home-active-last">
+              مرحباً
+              <div class="dot"></div>
+            </h2>
+          </div>
+          <div class="rounded-div-wrap bottom">
+            <div class="rounded-div"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="js-footer" class="footer">
+        <ul class="footer_socials ul__reset">
+          <li class="social js-social">
+            <a
+              class="social_link social_link__gmail magnetic"
+              href="mailto:engmahmoudgamal2212@gmail.com"
+              target="_blank"
+              aria-label="Connect my gmail"
+              rel="noopener"
+              data-strength="20"
+              data-strength-text="10"
+              ><img
+                src="assets/icons/icons8-gmail.svg"
+                class="svg"
+                alt="Gmail icon"
+            /></a>
+          </li>
+
+          <li class="social js-social">
+            <a
+              class="social_link social_link__facebook magnetic"
+              href="https://www.facebook.com/MahmoudGamal52212/"
+              target="_blank"
+              aria-label="Visit my Facebook profile"
+              rel="noopener"
+              data-strength="20"
+              data-strength-text="10"
+              ><img
+                src="assets/icons/icons8-facebook.svg"
+                class="svg"
+                alt="Facebook icon"
+            /></a>
+          </li>
+
+          <li class="social js-social">
+            <a
+              class="social_link social_link__linkedin magnetic"
+              href="https://www.linkedin.com/in/mahmoudgamal2212/"
+              target="_blank"
+              aria-label="Visit my LinkedIn profile"
+              rel="noopener"
+              data-strength="20"
+              data-strength-text="10"
+              ><img
+                src="assets/icons/icons8-linkedin.svg"
+                class="svg"
+                alt="LinkedIn icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <main id="main" class="main-layer js-pageContent">
+        <div class="btn btn-hamburger">
+          <div
+            class="btn-click magnetic"
+            data-strength="40"
+            data-strength-text="20"
+          >
+            <div class="btn-fill"></div>
+            <div class="btn-text">
+              <div class="btn-bars"></div>
+              <span class="btn-text-inner">Menu</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fixed-nav theme-dark">
+          <div class="fixed-nav-rounded-div">
+            <div class="rounded-div-wrap">
+              <div class="rounded-div"></div>
+            </div>
+          </div>
+          <div class="fixed-nav-inner">
+            <div class="row nav-row">
+              <h5>Navigation</h5>
+              <div class="stripe"></div>
+              <ul class="links-wrap">
+                <li class="btn btn-link active">
+                  <a
+                    href="#main"
+                    class="btn-click magnetic js-menu-link"
+                    data-strength="24"
+                    data-strength-text="12"
+                  >
+                    <span class="btn-text">
+                      <span class="btn-text-inner">Home</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="btn btn-link">
+                  <a
+                    href="#about"
+                    class="btn-click magnetic js-menu-link"
+                    data-strength="24"
+                    data-strength-text="12"
+                  >
+                    <span class="btn-text">
+                      <span class="btn-text-inner">About</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="btn btn-link">
+                  <a
+                    href="#work"
+                    class="btn-click magnetic js-menu-link"
+                    data-strength="24"
+                    data-strength-text="12"
+                  >
+                    <span class="btn-text">
+                      <span class="btn-text-inner">Work</span>
+                    </span>
+                  </a>
+                </li>
+
+                <li class="btn btn-link">
+                  <a
+                    href="#contact"
+                    class="btn-click magnetic js-menu-link"
+                    data-strength="24"
+                    data-strength-text="12"
+                  >
+                    <span class="btn-text">
+                      <span class="btn-text-inner">Contact</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="layer layer__dark">
+          <div class="container">
+            <div class="hero">
+              <div class="hero_bg once-in" data-lenis-parallax="0.5">
+                <div
+                  class="w-100 h-100 js-anim--scale"
+                  data-screen-offset="0.3"
+                >
+                  <img
+                    id="hero-bg-img"
+                    title="MGA backgroung image"
+                    src="/assets/img/design_1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="hero_content once-in">
+                <div class="row justify-content-center">
+                  <div
+                    class="col-lg-4 col-sm-8 col-12 hero_content_inner js-cursor-extend"
+                  >
+                    <h6
+                      class="text-center hero_content_inner_subtitle js-anim--lines--sim"
+                      data-screen-offset="0.8"
+                    >
+                      Mahmoud <span></span> Gamal
+                    </h6>
+                    <h1
+                      class="text-center animate__text js-anim--chars mb-0"
+                      data-screen-offset="0.6"
+                    >
+                      making
+                      <br /><strong>good</strong><br /><strong>shit</strong
+                      ><br />since<br />2021
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="animated-section once-in">
+              <div id="name1" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+              <div id="name2" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+              <div id="name3" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+            </div>
+
+            <section id="about" class="main-section">
+              <div class="about js-about">
+                <div class="row about_me">
+                  <div
+                    class="col-lg-8 col-sm-10 col-12 offset-lg-2 offset-sm-1"
+                  >
+                    <div
+                      class="about_content container_content js-cursor-extend"
+                    >
+                      <p class="about_content_label body-text text-uppercase">
+                        About me
+                      </p>
+                      <div class="about_content_desc h2">
+                        <div
+                          class="scroll-paragraph-mask js-scroll-paragraph-mask"
+                        >
+                          I’m a <strong>selectively</strong>
+                          <strong>skilled</strong> front-end web developer and
+                          designer with strong focus on producing high quality &
+                          impactful digital experience.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mga__career">
+                <div class="slider--brands embla is-draggable js-cursor-vanish">
+                  <div class="embla__container slider__wrapper">
+                    <a
+                      href="#slider"
+                      class="panel panel--brands panel--brands--dim panel--brands--highlight"
+                    >
+                      <div class="panel__text">
+                        <p
+                          class="t-weight-bold t-size-ml t-kern-xs t-condensed t-uppercase"
+                        >
+                          WEBSITE
+                          <span class="t-weight-light"
+                            >Designer & Developer</span
+                          >
+                        </p>
+                        <p class="t-size-sm t-line-ls mt-1">
+                          Front-end web developer.
+                        </p>
+                        <p
+                          class="panel__link t-uppercase t-size-xxs t-kern-xs mt-2"
+                        >
+                          View more
+                          <img
+                            src="/assets/icons/arrow.svg"
+                            alt="arrow"
+                            class="panel__link-arrow"
+                          />
+                        </p>
+                      </div>
+                      <div class="panel__image">
+                        <img
+                          src="/assets/img/web_develober.jpg"
+                          alt="Web Developer"
+                        /></div
+                    ></a>
+                    <a
+                      href="#slider"
+                      class="panel panel--brands panel--brands--dim"
+                    >
+                      <div class="panel__text">
+                        <p
+                          class="t-weight-bold t-size-ml t-kern-xs t-condensed t-uppercase"
+                        >
+                          AIR FORCE
+                          <span class="t-weight-light">Aviation Engineer</span>
+                        </p>
+                        <p class="t-size-sm t-line-ls mt-1">
+                          Creating & Developing Apps used by Army.
+                        </p>
+                        <p
+                          class="panel__link t-uppercase t-size-xxs t-kern-xs mt-2"
+                        >
+                          View more
+                          <img
+                            src="/assets/icons/arrow.svg"
+                            alt="arrow"
+                            class="panel__link-arrow"
+                          />
+                        </p>
+                      </div>
+                      <div class="panel__image">
+                        <img
+                          src="/assets/img/aviation_engineers.jpg"
+                          alt="Aviation Engineer"
+                        /></div
+                    ></a>
+                    <a
+                      href="#slider"
+                      class="panel panel--brands panel--brands--dim"
+                    >
+                      <div class="panel__text">
+                        <p
+                          class="t-weight-bold t-size-ml t-kern-xs t-condensed t-uppercase"
+                        >
+                          AIR FORCE
+                          <span class="t-weight-light">Officer</span>
+                        </p>
+                        <p class="t-size-sm t-line-ls mt-1">
+                          Graduation as Army Officer.
+                        </p>
+                        <p
+                          class="panel__link t-uppercase t-size-xxs t-kern-xs mt-2"
+                        >
+                          View more
+                          <img
+                            src="/assets/icons/arrow.svg"
+                            alt="arrow"
+                            class="panel__link-arrow"
+                          />
+                        </p>
+                      </div>
+                      <div class="panel__image">
+                        <img
+                          src="/assets/img/officer_graduation.jpg"
+                          alt="Officer Graduation"
+                        /></div
+                    ></a>
+                    <a
+                      href="#slider"
+                      class="panel panel--brands panel--brands--dim"
+                    >
+                      <div class="panel__text">
+                        <p
+                          class="t-weight-bold t-size-ml t-kern-xs t-condensed t-uppercase"
+                        >
+                          CAIRO UNIVERٍSITY
+                          <span class="t-weight-light">Engineer</span>
+                        </p>
+                        <p class="t-size-sm t-line-ls mt-1">
+                          Bachelor of Aeronautical Engineering.
+                        </p>
+                        <p
+                          class="panel__link t-uppercase t-size-xxs t-kern-xs mt-2"
+                        >
+                          View more
+                          <img
+                            src="/assets/icons/arrow.svg"
+                            alt="arrow"
+                            class="panel__link-arrow"
+                          />
+                        </p>
+                      </div>
+                      <div class="panel__image">
+                        <img
+                          src="/assets/img/graduation.png"
+                          alt="Graduation"
+                        /></div
+                    ></a>
+                    <a
+                      href="#slider"
+                      class="panel panel--brands panel--brands--dim"
+                    >
+                      <div class="panel__text">
+                        <p
+                          class="t-weight-bold t-size-ml t-kern-xs t-condensed t-uppercase"
+                        >
+                          EGYPTAIR
+                          <span class="t-weight-light">Trainee</span>
+                        </p>
+                        <p class="t-size-sm t-line-ls mt-1">
+                          Training at EgyptAir.
+                        </p>
+                        <p
+                          class="panel__link t-uppercase t-size-xxs t-kern-xs mt-2"
+                        >
+                          View more
+                          <img
+                            src="/assets/icons/arrow.svg"
+                            alt="arrow"
+                            class="panel__link-arrow"
+                          />
+                        </p>
+                      </div>
+                      <div class="panel__image">
+                        <img
+                          src="/assets/img/egypt_air_1.jpg"
+                          alt="Egypt Air Training"
+                        /></div
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider js-cursor-vanish" id="slider">
+                <div class="slide slide--1">
+                  <div class="testimonial">
+                    <h5 class="testimonial__header">
+                      Working on my Programming skills
+                    </h5>
+                    <blockquote class="testimonial__text">
+                      I am now working on enhancing my skills and increasing my
+                      experience as a front-end web programmer and developer by
+                      updating my knowledge in this field. Implementation of
+                      several applications which were implemented using several
+                      paradigms (i.e. imperative/procedural programming along
+                      with Object-Oriented Programming and functional
+                      programming) and frameworks.
+                    </blockquote>
+                    <address class="testimonial__author">
+                      <img
+                        src="/assets/img/design_1_sq.jpg"
+                        alt=""
+                        class="testimonial__photo"
+                      />
+                      <h6 class="testimonial__name">EGYPT</h6>
+                      <p class="testimonial__location">Now</p>
+                    </address>
+                  </div>
+                </div>
+
+                <div class="slide slide--2">
+                  <div class="testimonial">
+                    <h5 class="testimonial__header">
+                      The big step to becoming a Web Developer
+                    </h5>
+                    <blockquote class="testimonial__text">
+                      Promoted to the rank of First Lieutenant to work in the
+                      military in the Aviation Engineers Division and work as a
+                      full stack web developer to manage and develop many
+                      applications used on the division’s private network.
+                    </blockquote>
+                    <address class="testimonial__author">
+                      <img
+                        src="/assets/img/aviation_engineers_sq.jpg"
+                        alt=""
+                        class="testimonial__photo"
+                      />
+                      <h6 class="testimonial__name">Military unit</h6>
+                      <p class="testimonial__location">May 2024</p>
+                    </address>
+                  </div>
+                </div>
+
+                <div class="slide slide--3">
+                  <div class="testimonial">
+                    <h5 class="testimonial__header">
+                      Answering the Call of Duty
+                    </h5>
+                    <blockquote class="testimonial__text">
+                      I was eager to perform my military service and train at
+                      the Reserve Officers College, then graduate as a
+                      lieutenant in the Air Force after an amazing experience in
+                      which I discovered myself again.
+                    </blockquote>
+                    <address class="testimonial__author">
+                      <img
+                        src="/assets/img/officer_graduation_sq.jpg"
+                        alt=""
+                        class="testimonial__photo"
+                      />
+                      <h6 class="testimonial__name">Officers College</h6>
+                      <p class="testimonial__location">Oct 2022</p>
+                    </address>
+                  </div>
+                </div>
+
+                <div class="slide slide--4">
+                  <div class="testimonial">
+                    <h5 class="testimonial__header">
+                      Finally graduated as an Aerospace Engineer
+                    </h5>
+                    <blockquote class="testimonial__text">
+                      Graduation in the Faculty of Engineering after a great
+                      effort of studying, passing quizs and doing projects.
+                      Learning a lot of amazing things about Mathematics,
+                      Aircraft structure design, Powerplant, Aerodynamic
+                      designs, Control and Programming using basic programming
+                      languages
+                    </blockquote>
+                    <address class="testimonial__author">
+                      <img
+                        src="/assets/img/graduation_sq.png"
+                        alt=""
+                        class="testimonial__photo"
+                      />
+                      <h6 class="testimonial__name">Cairo University</h6>
+                      <p class="testimonial__location">Sep 2021</p>
+                    </address>
+                  </div>
+                </div>
+
+                <div class="slide slide--5">
+                  <div class="testimonial">
+                    <h5 class="testimonial__header">
+                      Practical Training in Maintenance Workshops
+                    </h5>
+                    <blockquote class="testimonial__text">
+                      Defined the main components of aeroplane engine and how it
+                      works. Major problems that engine may face during
+                      operation. Made non-destructive tests on aeroplane parts.
+                      Learn about avionics work. Repaired some aeroplane systems
+                      and several structure problems.
+                    </blockquote>
+                    <address class="testimonial__author">
+                      <img
+                        src="/assets/img/egypt_air_3_sq.jpg"
+                        alt=""
+                        class="testimonial__photo"
+                      />
+                      <h6 class="testimonial__name">EGYPTAIR</h6>
+                      <p class="testimonial__location">Jan 2018</p>
+                    </address>
+                  </div>
+                </div>
+
+                <button class="slider__btn slider__btn--left">&larr;</button>
+                <button class="slider__btn slider__btn--right">&rarr;</button>
+                <div class="dots"></div>
+              </div>
+            </section>
+
+            <section id="work" class="main-section">
+              <div class="client js-client" id="client">
+                <div class="row client_info">
+                  <div
+                    class="col-lg-9 col-sm-10 offset-lg-2 offset-sm-1 col-12"
+                  >
+                    <div
+                      class="client_content container_content js-cursor-extend"
+                    >
+                      <p class="client_content_label body-text text-uppercase">
+                        Work and Experience
+                      </p>
+                      <div class="client_content_desc h2">
+                        <div
+                          class="scroll-paragraph-mask js-scroll-paragraph-mask"
+                        >
+                          I worked on applications which increases my experience
+                          in
+                          <strong>interactive</strong> designs and programming
+                          <strong>paradigms</strong> and i am eager for creating
+                          next level digital products
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="rotated-container">
+                  <img
+                    src="/assets/img/planet-1-1.png"
+                    alt="Dark Earth"
+                    class="rotated-image"
+                  />
+                </div> -->
+
+                <div class="client_list">
+                  <div class="client_list_3d" data-lenis-speed=".1">
+                    <div class="js-client_list_3d client_list_3d_inner">
+                      <div id="earth-container"></div>
+                    </div>
+                    <!-- <div class="client_list_3d_image">
+                      <img src="/assets/img/planet-1-1.png" alt="planet" />
+                    </div> -->
+                  </div>
+                  <div class="client_list_inner js-cursor-vanish">
+                    <div class="heading-mask js-heading-mask js-project">
+                      <div class="heading-mask_el heading-mask_el__deep">
+                        <div class="row align-items-center">
+                          <div
+                            class="col-lg-10 offset-lg-2 col-sm-11 offset-sm-1 col-12"
+                          >
+                            <div class="simple-masking overflow-hidden">
+                              <div
+                                class="simple-masking_el js-simple-masking_el js-cursor-contract"
+                              >
+                                <h2
+                                  class="h1 mb-0 js-heading-mask_heading container_content none-break"
+                                >
+                                  Mapty
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="heading-mask_el heading-mask_el__masking">
+                        <div class="row align-items-center">
+                          <div class="col-sm-6 offset-lg-2 offset-sm-1 col-12">
+                            <div class="simple-masking overflow-hidden">
+                              <div class="simple-masking_el">
+                                <h2
+                                  class="h1 mb-0 text-dark none-break none-break"
+                                >
+                                  Mapty
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-3 col-sm-4 text-dark d-sm-block d-none"
+                          >
+                            <p class="mb-0 desc">
+                              Locate places on the map for running and cycling.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-mask js-heading-mask js-project">
+                      <div class="heading-mask_el heading-mask_el__deep">
+                        <div class="row align-items-center">
+                          <div
+                            class="col-lg-10 offset-lg-2 col-sm-11 offset-sm-1 col-12"
+                          >
+                            <div class="simple-masking overflow-hidden">
+                              <div
+                                class="simple-masking_el js-simple-masking_el js-cursor-contract"
+                              >
+                                <h2
+                                  class="h1 mb-0 js-heading-mask_heading container_content none-break"
+                                >
+                                  Bankist
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="heading-mask_el heading-mask_el__masking container_content"
+                      >
+                        <div class="row align-items-center">
+                          <div class="col-sm-6 offset-lg-2 offset-sm-1 col-12">
+                            <div class="simple-masking overflow-hidden">
+                              <div class="simple-masking_el">
+                                <h2 class="h1 mb-0 text-dark none-break">
+                                  Bankist
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-3 col-sm-4 text-dark d-sm-block d-none"
+                          >
+                            <p class="mb-0 desc">
+                              A website for fictional bank.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-mask js-heading-mask js-project">
+                      <div class="heading-mask_el heading-mask_el__deep">
+                        <div class="row align-items-center">
+                          <div
+                            class="col-lg-10 offset-lg-2 col-sm-11 offset-sm-1 col-12"
+                          >
+                            <div class="simple-masking overflow-hidden">
+                              <div
+                                class="simple-masking_el js-simple-masking_el js-cursor-contract"
+                              >
+                                <h2
+                                  class="h1 mb-0 js-heading-mask_heading container_content none-break"
+                                >
+                                  Forkify
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="heading-mask_el heading-mask_el__masking container_content"
+                      >
+                        <div class="row align-items-center">
+                          <div class="col-sm-6 offset-lg-2 offset-sm-1 col-12">
+                            <div class="simple-masking overflow-hidden">
+                              <div class="simple-masking_el">
+                                <h2 class="h1 mb-0 text-dark none-break">
+                                  Forkify
+                                </h2>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="col-lg-3 col-sm-4 text-dark d-sm-block d-none"
+                          >
+                            <p class="mb-0 desc">
+                              Food application allows you to search for any
+                              recipe you want.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-lg-10 offset-lg-2 col-sm-11 offset-sm-1 col-12"
+                    >
+                      <div class="dots container_content">
+                        <span></span> <span></span> <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="video" id="video">
+                <div class="videoPlayer js-videoPlayer js-cursor-vanish">
+                  <div class="videoPlayer_inner js-videoPlayer_inner">
+                    <img
+                      src="/assets/img/bankist.png"
+                      data-src="/assets/img/my-work-gifs.gif"
+                      alt="My work"
+                      class="lazy-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section
+              id="contact"
+              class="contact container_content main-section"
+            >
+              <div class="motto">
+                <div class="motto_content container_content">
+                  <div class="row justify-content-center align-items-center">
+                    <div
+                      class="col-lg-8 col-12 motto_content_inner js-cursor-extend"
+                    >
+                      <div>
+                        <p
+                          class="text-center mb-0 h6 js-anim--lines--sim"
+                          data-offset=".2"
+                        >
+                          <!-- MGA -->
+                        </p>
+                        <p
+                          class="text-center motto_content_heading h1 mb-0 js-anim--chars"
+                          data-offset=".2"
+                        >
+                          I work with people<br
+                            class="d-lg-none d-inline-block"
+                          /><br />i believe in
+                        </p>
+                        <p
+                          class="desc text-center mb-0 js-anim--lines--sim"
+                          data-offset=".2"
+                        >
+                          MGA
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-sm-10 col-12 offset-lg-2 offset-sm-1">
+                  <p class="contact_label body-text text-uppercase">Connect</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-sm-5 offset-lg-2 offset-sm-1 col-12">
+                  <ul class="ul__reset">
+                    <li
+                      class="heading-mask social-link js-cursor-contract js-cursor-vanish js-connect-mask heading-mask__now h3"
+                    >
+                      <div class="heading-mask_el heading-mask_el__deep">
+                        <a
+                          href="https://www.linkedin.com/in/mahmoudgamal2212/"
+                          class="contact_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Linkedin</a
+                        >
+                      </div>
+                      <div class="heading-mask_el heading-mask_el__masking">
+                        <a
+                          href="https://www.linkedin.com/in/mahmoudgamal2212/"
+                          class="text-dark contact_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Serious me</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                  <ul class="ul__reset">
+                    <li
+                      class="heading-mask social-link js-cursor-contract js-cursor-vanish js-connect-mask heading-mask__now h3"
+                    >
+                      <div class="heading-mask_el heading-mask_el__deep">
+                        <a
+                          href="https://www.facebook.com/MahmoudGamal52212/"
+                          class="contact_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Facebook</a
+                        >
+                      </div>
+                      <div class="heading-mask_el heading-mask_el__masking">
+                        <a
+                          href="https://www.facebook.com/MahmoudGamal52212/"
+                          class="text-dark contact_link"
+                          target="_blank"
+                          rel="noopener"
+                          >Post every decade</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-12 contact_content">
+                  <div class="row">
+                    <div
+                      class="col-lg-12 col-sm-5 offset-lg-0 offset-sm-1 col-12"
+                    >
+                      <div
+                        class="heading-mask contact_info contact_info__top js-cursor-contract js-cursor-vanish js-connect-mask heading-mask__now"
+                      >
+                        <div class="heading-mask_el heading-mask_el__deep">
+                          <span class="h4 d-block">Email</span>
+                          <a
+                            class="sub-content"
+                            href="mailto:engmahmoudgamal2212@gmail.com
+                            "
+                            ><span class="__cf_email__"
+                              >[email&#160;engmahmoudgamal2212@gmail.com]</span
+                            ></a
+                          >
+                        </div>
+                        <div class="heading-mask_el heading-mask_el__masking">
+                          <span class="h4 d-block text-dark"
+                            >100% chance I read it</span
+                          >
+                          <a
+                            class="sub-content text-dark"
+                            href="mailto:engmahmoudgamal2212@gmail.com
+                            "
+                            ><span class="__cf_email__"
+                              >[email&#160;engmahmoudgamal2212@gmail.com]</span
+                            ></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-5 col-12">
+                      <div
+                        class="heading-mask contact_info js-cursor-contract js-cursor-vanish js-connect-mask heading-mask__now"
+                      >
+                        <div class="heading-mask_el heading-mask_el__deep">
+                          <span class="h4 d-block">Phone</span>
+                          <a class="sub-content" href="tel:01129798955"
+                            >01129798955</a
+                          >
+                        </div>
+                        <div class="heading-mask_el heading-mask_el__masking">
+                          <span class="h4 d-block text-dark"
+                            >50% chance I don’t pickup</span
+                          >
+                          <a
+                            class="sub-content text-dark"
+                            href="tel:01129798955"
+                            >01129798955</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- <div class="frame-mobile"></div> -->
+        </div>
+
+        <!-- the line between the dark layer and the invisible mask layer -->
+
+        <div class="layer layer__red js-masker">
+          <div class="container">
+            <div class="hero hero__red">
+              <div class="hero_content">
+                <div class="row justify-content-center">
+                  <div class="col-lg-4 col-sm-8 col-12 hero_content_inner">
+                    <span
+                      class="text-center h6 hero_content_inner_subtitle text-dark"
+                      >Designer & Developer</span
+                    >
+                    <h1
+                      class="text-center text-dark js-anim--chars mb-0"
+                      data-screen-offset="0.6"
+                    >
+                      Hiding<br />bad<br />shit<br />since<br />2021
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="animated-section hidden">
+              <div id="name1" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+              <div id="name2" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+              <div id="name3" class="name">
+                - Mahmoud Gamal<span>&copy;</span>
+              </div>
+            </div>
+
+            <div class="about about__red">
+              <div class="row about_me">
+                <div class="col-lg-8 col-sm-10 col-12 offset-lg-2 offset-sm-1">
+                  <div class="about_content container_content">
+                    <p
+                      class="about_content_label body-text text-uppercase text-dark"
+                    >
+                      About me
+                    </p>
+                    <div class="about_content_desc h2">
+                      <div class="scroll-paragraph-mask text-dark">
+                        An aerospace engineer who choose web programming - with
+                        skills and the ability to adapt. I will make good shit
+                        only if the paycheck is equally good.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mga__career"></div>
+
+            <div class="slider"></div>
+
+            <div class="client client__red">
+              <div class="row client_info">
+                <div class="col-lg-9 col-sm-10 offset-lg-2 offset-sm-1 col-12">
+                  <div class="client_content container_content text-dark">
+                    <p class="client_content_label body-text text-uppercase">
+                      Work and Experience
+                    </p>
+                    <div class="client_content_desc h2">
+                      <div class="scroll-paragraph-mask">
+                        In fact, my work period is not long, but I have gained a
+                        lot of experience during this period and I seek to gain
+                        a lot to eventually become a resourcefully full-stack
+                        web developer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="client_list op-0 text-dark">
+                <div class="client_list_inner">
+                  <div class="heading-mask">
+                    <div
+                      class="heading-mask_el heading-mask_el__deep container_content"
+                    >
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 none-break">Mapty</h2>
+                          </div>
+                        </div>
+                        <div
+                          class="col-lg-3 col-sm-4 text-dark col-12 d-lg-none d-block"
+                        >
+                          <p class="mb-0 desc">
+                            Locate places on the map for running and cycling.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-mask_el heading-mask_el__masking">
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 none-break">Mapty</h2>
+                          </div>
+                        </div>
+                        <div
+                          class="col-lg-3 col-sm-4 col-12 op-0 text-dark d-sm-none d-block"
+                        >
+                          <p class="mb-0 desc">
+                            Locate places on the map for running and cycling.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="heading-mask">
+                    <div
+                      class="heading-mask_el heading-mask_el__deep container_content"
+                    >
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 none-break">Bankist</h2>
+                          </div>
+                        </div>
+                        <div
+                          class="col-lg-3 col-sm-4 text-dark col-12 d-lg-none d-block"
+                        >
+                          <p class="mb-0 desc">A website for fictional bank.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-mask_el heading-mask_el__masking">
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 none-break">Bankist</h2>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-4 col-12 d-sm-none d-block">
+                          <p class="mb-0 desc">A website for fictional bank.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="heading-mask">
+                    <div
+                      class="heading-mask_el heading-mask_el__deep container_content"
+                    >
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 none-break">Forkify</h2>
+                          </div>
+                        </div>
+                        <div
+                          class="col-lg-3 col-sm-4 text-dark col-12 d-lg-none d-block"
+                        >
+                          <p class="mb-0 desc">
+                            Food application allows you to search for any recipe
+                            you want.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="heading-mask_el heading-mask_el__masking">
+                      <div class="row align-items-center">
+                        <div
+                          class="col-sm-6 offset-lg-2 offset-sm-1 col-12 d-sm-block d-none"
+                        >
+                          <div class="simple-masking overflow-hidden">
+                            <h2 class="h1 mb-0 text-dark none-break">
+                              Forkify
+                            </h2>
+                          </div>
+                        </div>
+                        <div
+                          class="col-lg-3 col-sm-4 col-12 text-dark d-sm-none d-block"
+                        >
+                          <p class="mb-0 desc">
+                            Food application allows you to search for any recipe
+                            you want.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-2 offset-sm-1 col-12">
+                    <div class="dots container_content">
+                      <span></span> <span></span> <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video video__red">
+              <div class="videoPlayer op-0">
+                <div
+                  class="videoPlayer_inner videoPlayer_inner__red js-videoPlayer_inner__red"
+                >
+                  <img src="/assets/img/bankist.png" alt="My work" />
+                </div>
+              </div>
+            </div>
+
+            <div class="motto motto__red">
+              <div class="motto_content container_content">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-lg-8 col-12 motto_content_inner">
+                    <div>
+                      <p class="text-center h6 text-dark mb-0"></p>
+                      <p
+                        class="text-center motto_content_heading h1 text-dark mb-0"
+                      >
+                        Team is only<br />as fast as<br />the slowest one
+                      </p>
+                      <p class="desc text-center text-dark mb-0">Wise man</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact contact__red container_content op-0">
+              <div class="row">
+                <div class="col-lg-8 col-sm-10 col-12 offset-lg-2 offset-sm-1">
+                  <p class="contact_label body-text text-uppercase text-dark">
+                    Connect
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-sm-5 offset-lg-2 offset-sm-1 col-12">
+                  <ul class="ul__reset">
+                    <li
+                      class="heading-mask social-link js-cursor-contract heading-mask__now h3"
+                    >
+                      <a
+                        href="https://www.linkedin.com/in/mahmoudgamal2212/"
+                        class="text-dark contact_link"
+                        target="_blank"
+                        rel="noopener"
+                        >Serious me</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-sm-5 col-12">
+                  <ul class="ul__reset">
+                    <li
+                      class="heading-mask social-link js-cursor-contract heading-mask__now h3"
+                    >
+                      <a
+                        href="https://www.facebook.com/MahmoudGamal52212/"
+                        class="text-dark contact_link"
+                        target="_blank"
+                        rel="noopener"
+                        >Post every decade</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-12 contact_content">
+                  <div class="row">
+                    <div
+                      class="col-lg-12 col-sm-5 offset-lg-0 offset-sm-1 col-12"
+                    >
+                      <div
+                        class="heading-mask contact_info contact_info__red contact_info__top js-cursor-contract heading-mask__now"
+                      >
+                        <span class="h4 d-block text-dark"
+                          >100% chance I read it</span
+                        >
+                        <a
+                          class="sub-content text-dark"
+                          href="mailto:engmahmoudgamal2212@gmail.com
+                          "
+                          ><span class="__cf_email__"
+                            >[email&#160;engmahmoudgamal2212@gmail.com]</span
+                          ></a
+                        >
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-5 col-12">
+                      <div
+                        class="heading-mask contact_info contact_info__red js-cursor-contract heading-mask__now"
+                      >
+                        <span class="h4 d-block text-dark"
+                          >50% chance I don’t pickup</span
+                        >
+                        <a class="sub-content text-dark" href="tel:01129798955"
+                          >01129798955</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="font--condensed text--sm js-cursor-vanish">
+          <div class="footer__policy">
+            <a
+              href="/"
+              rel="noreferrer noopener"
+              class="link--text"
+              title="Powered By MGA5 - Team MGA"
+              >MAHMOUD GAMAL</a
+            >
+          </div>
+          <div class="footer__copyright text--dimmed">
+            &copy; Mahmoud Gamal, All Rights Reserved
+          </div>
+          <div class="footer__legend">
+            <a class="link--image mga" rel="noreferrer noopener"
+              ><img src="/assets/icons/arrow.svg" title="Scroll to top"
+            /></a>
+          </div>
+        </footer>
+
+        <div class="modal hidden">
+          <div class="brands__wrapper">
+            <div class="header__nav__simple">
+              <div class="header__logo">
+                <a href="/">MAHMOUD GAMAL</a>
+              </div>
+              <div class="close__button">
+                <button type="button" class="nav__toggle btn--close-modal">
+                  &times;
+                </button>
+              </div>
+            </div>
+            <nav class="section-nav brands__nav">
+              <div class="nav__indicator"></div>
+              <div class="section-nav__item">Mapty</div>
+              <div class="section-nav__item">Bankist</div>
+              <div class="section-nav__item">Forkify</div>
+            </nav>
+
+            <div id="fullpage" class="fullpage-wrapper">
+              <section
+                class="section section--brands fp-section fp-table"
+                data-anchor="mga-mapty"
+                data-fp-styles="null"
+              >
+                <div class="fp-tableCell">
+                  <div class="slider--full">
+                    <div class="slider__wrapper">
+                      <div class="project slide--brands">
+                        <div class="slide__text">
+                          <p
+                            class="info__title t-weight-light t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            Map
+                          </p>
+                          <p
+                            class="info__subtitle t-weight-bold t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            Application
+                          </p>
+                          <p class="info__text t-size-sm t-line-lg mt-2">
+                            Working on this application increases my experience
+                            in OOP, Using geolocation and External libraries.
+                          </p>
+                          <a
+                            class="proj__link t-weight-bold t-size-xl t-condensed"
+                            href="https://mapty-mga.netlify.app/"
+                            target="_blank"
+                            rel="noopener"
+                          >
+                            Use app
+                            <img
+                              src="/assets/icons/arrow.svg"
+                              alt="arrow"
+                              class="panel__link-arrow"
+                            />
+                          </a>
+                        </div>
+                        <div class="slide__image">
+                          <img
+                            src="/assets/img/mapty.png"
+                            data-src="/assets/img/mapty.gif"
+                            alt="Mapty App"
+                            class="lazy-img"
+                          />
+                        </div>
+                        <div class="laptop-16inch">
+                          <img
+                            src="/assets/img/device-mbp-16-lower-nonotch.png"
+                            alt="laptop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="section section--brands fp-section fp-table"
+                data-anchor="mga-bankist"
+                data-fp-styles="null"
+              >
+                <div class="fp-tableCell">
+                  <div class="slider--full">
+                    <div class="slider__wrapper">
+                      <div class="project slide--brands">
+                        <div class="slide__text">
+                          <p
+                            class="info__title t-weight-light t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            Bank
+                          </p>
+                          <p
+                            class="info__subtitle t-weight-bold t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            website
+                          </p>
+                          <p class="info__text t-size-sm t-line-lg mt-2">
+                            On creating this website my experience in
+                            interactive designs have been improved learning some
+                            skills like lazy-image load, observe objects and
+                            delegations.
+                          </p>
+                          <a
+                            class="proj__link t-weight-bold t-size-xl t-condensed"
+                            href="https://bankist-mahmoud.netlify.app/"
+                            target="_blank"
+                            rel="noopener"
+                          >
+                            Visit site
+                            <img
+                              src="/assets/icons/arrow.svg"
+                              alt="arrow"
+                              class="panel__link-arrow"
+                            />
+                          </a>
+                        </div>
+                        <div class="slide__image">
+                          <img
+                            src="/assets/img/bankist.png"
+                            data-src="/assets/img/bankist.gif"
+                            alt="Bankist App"
+                            class="lazy-img"
+                          />
+                        </div>
+                        <div class="screen-macpro">
+                          <img
+                            src="/assets/img/device-macpro-higher.png"
+                            alt="screen"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="section section--brands fp-section fp-table"
+                data-anchor="mga-forkify"
+                data-fp-styles="null"
+              >
+                <div class="fp-tableCell">
+                  <div class="slider--full">
+                    <div class="slider__wrapper">
+                      <div class="project slide--brands">
+                        <div class="slide__text">
+                          <p
+                            class="info__title t-weight-light t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            Recipe
+                          </p>
+                          <p
+                            class="info__subtitle t-weight-bold t-size-xxl t-kern-md t-condensed t-uppercase"
+                          >
+                            Application
+                          </p>
+                          <p class="info__text t-size-sm t-line-lg mt-2">
+                            By finishing this application i was a pro OOP
+                            developer as i use MVC architecture for creating
+                            this application.
+                          </p>
+                          <a
+                            class="proj__link t-weight-bold t-size-xl t-condensed"
+                            href="https://forkify-mahmoud.netlify.app/"
+                            target="_blank"
+                            rel="noopener"
+                          >
+                            Use App
+                            <img
+                              src="/assets/icons/arrow.svg"
+                              alt="arrow"
+                              class="panel__link-arrow"
+                            />
+                          </a>
+                        </div>
+                        <div class="slide__image">
+                          <img
+                            src="/assets/img/forkify.png"
+                            data-src="/assets/img/forkify.gif"
+                            alt="Forkify App"
+                            class="lazy-img"
+                          />
+                        </div>
+                        <div class="laptop-15inch">
+                          <img
+                            src="/assets/img/device-mbp-15-nonotch.png"
+                            alt="laptop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </main>
+    </div>
+  </body>
+</html>
