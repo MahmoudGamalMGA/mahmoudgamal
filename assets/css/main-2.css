@@ -4993,7 +4993,8 @@ canvas.three-app {
   }
 }
 .client__red .client_content {
-  width: 20.375rem;
+  /* width: 20.375rem; */
+  width: auto;
 }
 @media (min-width: 768px) {
   .client__red .client_content {

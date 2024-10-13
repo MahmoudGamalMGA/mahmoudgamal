@@ -267,6 +267,26 @@ const showText = function () {
   });
 };
 
+// Function for triger showText()
+const trigerTextAnimation = function () {
+  const introDiv = document.querySelector('.rounded-div-wrap.bottom');
+
+  const animateOnTriger = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        showText();
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(animateOnTriger, {
+    threshold: 0.1, // Trigger when 10% of the element is visible
+  });
+
+  observer.observe(introDiv);
+};
+
 // Animation function to move text
 const moveText = function () {
   let lastScrollTop = 0;
@@ -1609,7 +1629,7 @@ function initScript() {
   fix100VhOnPhone(); // Fix height
   runIntro(); // Load intro animation
   targetPointer(); // Create moving circle
-  showText(); // Show text over image
+  trigerTextAnimation(); // Show text over image
   moveText(); // Move text depend on scroll
   imgHighlight(); // Image highlight from section about
   scrollDivMove(); // Div move on scroll
