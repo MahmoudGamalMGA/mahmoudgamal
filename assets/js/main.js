@@ -1058,7 +1058,7 @@ const verticalSliderization = function (slideNum) {
             diffX > 0 &&
             (swipeDirection !== 'Down' || timeNow > lastSwipe + swipeIdleTime)
           ) {
-            prevSlide();
+            nextSlide();
             swipeDirection = 'Down';
           }
 
@@ -1066,7 +1066,7 @@ const verticalSliderization = function (slideNum) {
             diffX < 0 &&
             (swipeDirection !== 'Up' || timeNow > lastSwipe + swipeIdleTime)
           ) {
-            nextSlide();
+            prevSlide();
             swipeDirection = 'Up';
           }
         }
