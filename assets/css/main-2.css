@@ -4917,7 +4917,7 @@ canvas.three-app {
     padding-top: 29.7619047619vh;
   }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .client_content_desc {
     height: 20rem;
     max-width: 20.375rem;
@@ -4927,7 +4927,7 @@ canvas.three-app {
   .client_content_desc {
     height: 15.3125rem;
   }
-}
+} */
 @media (min-width: 1200px) {
   .client_content_desc {
     height: unset;

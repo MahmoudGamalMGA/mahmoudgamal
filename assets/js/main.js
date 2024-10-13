@@ -1607,7 +1607,7 @@ const ScrollFillMask = function () {
 // Fire scripts on page load
 function initScript() {
   fix100VhOnPhone(); // Fix height
-  //runIntro(); // Load intro animation
+  runIntro(); // Load intro animation
   targetPointer(); // Create moving circle
   showText(); // Show text over image
   moveText(); // Move text depend on scroll
